@@ -21,7 +21,7 @@ In `User variables`, click variable named `Path` and simply click `Edit` button.
 In `System variables`, click `Add` button. In the `New Environment Variable` window, type `PATH` for `Variable name`, and type your file path for `Variable value`, and press enter.
 
 Now, when you open the CMD, or PowerShell, and call `zig` command, it will list the usable commands. For seeing your zig version, you can simply type `zig version` and press enter. It will print text like this:
-```
+```cmd
 0.12.0-dev.21+ac95cfe44
 ```
 

@@ -8,9 +8,9 @@ For Windows, extract the downloaded `zip` file wherever you like. After the extr
 
 If you try to call `zig` in CMD (Command Prompt) or in PowerShell, you should see an error that says the `zig` command is not recognized.
 
-For calling `zig` command in every session, we must add it to Environment Variables`.
+For calling `zig` command in every session, we must add it to `Environment Variables`.
 
-First, press `Windows + R` keys at the same time, type `sysdm.cpl, and press enter. It will open the system properties window.
+First, press `Windows + R` keys at the same time, type `sysdm.cpl`, and press enter. It will open the system properties window.
 
 In `Advanced` section, there is a button called Environment Variables`. When you click it, the Environment Variables` window should be opened.
 

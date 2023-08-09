@@ -1,5 +1,3 @@
-# 🛠️ Building
-
 In the previous section, we downloaded zig compiler to our computer. It's time to use it.
 
 Create a folder named whatever you like for working on zig files. Open this folder on VS Code.
@@ -13,7 +11,24 @@ It will create folder named `src`, and two zig files named `main.zig` and `build
 
 You can make your changes in `main.zig` file, or simply leave it as it is.
 
-For building this file, open terminal and type this command:
+## 🔁 Run
+
+To run this file, open terminal and type this command:
+
+```cmd
+zig run src/main.zig
+```
+
+It will run `main.zig` file. If you left `main.zig` file as it is, those lines should be printed:
+
+```cmd
+All your codebase are belong to us.
+Run `zig build test` to run the tests.
+```
+
+## 🛠️ Build
+
+To build this file, open terminal and type this command:
 
 ```cmd
 zig build-exe src/main.zig
@@ -34,4 +49,5 @@ All your codebase are belong to us.
 Run `zig build test` to run the tests.
 ```
 
-And that's it! You learned how to build and run your zig file.
+
+And that's it! You learned how to run and build your zig file.

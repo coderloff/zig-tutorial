@@ -41,7 +41,7 @@ It will build `main.zig` file. As a result of build, three files will be created
 For running our build, open the terminal again and type this command:
 
 ```cmd
-.\main.exe
+./main
 ```
 
 It will run the build. If you left `main.zig` file as it is, those lines should be printed:

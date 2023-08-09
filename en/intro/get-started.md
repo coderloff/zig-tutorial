@@ -1,5 +1,7 @@
 # ⚡ Get Started
 
+## ℹ About
+
 Zig is a general-purpose programming language and toolchain for maintaining robust, optimal and reusable software.
 
 ## ⬆️ Advantages
@@ -21,3 +23,5 @@ Incrementally improve your C/C++/Zig codebase.
 - Use Zig as a zero-dependency, drop-in C/C++ compiler that supports cross-compilation out-of-the-box.
 - Leverage zig build to create a consistent development environment across all platforms.
 - Add a Zig compilation unit to C/C++ projects; cross-language LTO is enabled by default.
+
+For extra information, visit [Zig language official website]("https://ziglang.org/")

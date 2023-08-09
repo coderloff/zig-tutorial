@@ -1,8 +1,10 @@
+# 🔧 Creating Project
+
 In the previous section, we downloaded zig compiler to our computer. It's time to use it.
 
 Create a folder named whatever you like for working on zig files. Open this folder on VS Code.
 
-After opening, click `Terminal` (or simply create new one by pressing `Ctrl + Shift + `), and type this:
+After opening, click `Terminal` (or simply create new one by pressing ``Ctrl + Shift + ` ``), and type this:
 ```cmd
 zig init-exe
 ```

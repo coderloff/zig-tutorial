@@ -52,4 +52,4 @@ Run `zig build test` to run the tests.
 ```
 
 
-And that's it! You learned how to run and build your zig file.
+And that's it! We learned how to run and build zig file.

@@ -110,4 +110,4 @@ pub fn main() !void {
 
 I/O operations are integral to programming, allowing applications to interact with users and external data. Zig provides powerful tools, such as the `std.debug` and `std.io` modules for console output and `std.io` for console input. By mastering I/O operations in Zig, you'll be equipped to create dynamic and interactive applications that effectively communicate with users and manipulate data.
 
-And that's it! You learned how to work with I/O operations in Zig.
+And that's it! We learned how to work with I/O operations in Zig.

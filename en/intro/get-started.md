@@ -25,3 +25,5 @@ Incrementally improve your C/C++/Zig codebase.
 - Add a Zig compilation unit to C/C++ projects; cross-language LTO is enabled by default.
 
 For extra information, visit [Zig language official website]("https://ziglang.org/")
+
+And that's it! We learned about the Zig programming language and its advantages.

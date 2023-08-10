@@ -34,7 +34,7 @@ pub fn main() !void {
 }
 ```
 
-## ⤴️ Trigonometric Functions
+## 📐 Trigonometric Functions
 
 The `std.math` module also provides trigonometric functions for working with angles. Here are some examples:
 
@@ -66,7 +66,7 @@ pub fn main() void {
 }
 ```
 
-## ⤴️ Exponential and Logarithmic Functions
+## 🗃️ Exponential and Logarithmic Functions
 
 Zig's `std.math` module includes functions for exponential and logarithmic calculations. Here are some examples:
 

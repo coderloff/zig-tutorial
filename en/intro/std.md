@@ -84,4 +84,4 @@ pub fn main() !void {
 
 Zig's Standard Library (`std`) is a valuable resource for a wide range of programming tasks. Its extensive modules and utilities empower developers with efficient tools to write clean, robust, and feature-rich code. By exploring and utilizing the functionalities provided by `std`, you can enhance your Zig programming experience and create high-quality applications.
 
-And that's it! You learned how to use Zig's Standard Library (`std`).
+And that's it! We learned how to use Zig's Standard Library (`std`).

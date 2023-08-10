@@ -30,4 +30,4 @@ Now, when you open the CMD, or PowerShell, and call `zig` command, it will list 
 
 In VS Code, click `Extensions` (or press `Ctrl + Shift + X`), type `Zig Language`, press enter, click extension, and install it.
 
-And that's it! You have a zig compiler on your computer.
+And that's it! We have a zig compiler on our computer.

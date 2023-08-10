@@ -21,4 +21,4 @@ That's because we declared x's value as 0 in the first line, and in the second l
 
 There are many new terms like `std`, `test`, `testing`, `expect`, `try`, etc. Don't worry about them; these will be explained in more detail in the following sections.
 
-And that's it! You learned how to test your zig file.
+And that's it! We learned how to test a zig file.

@@ -1,1 +1,4 @@
 # 🔨 Function
+
+fn !void
+try

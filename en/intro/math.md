@@ -93,4 +93,4 @@ The `std.math` module in Zig provides a versatile set of functions for performin
 
 By leveraging `std.math`, you can perform precise mathematical calculations in your Zig programs and build applications that require complex computations.
 
-And that's it! You learned how to use mathematical functions in Zig.
+And that's it! We learned how to use mathematical functions in Zig.

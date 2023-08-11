@@ -102,7 +102,7 @@ pub fn main() !void {
     var buffer: [1024]u8 = undefined;
     const bytesRead = try file.read(buffer[0..]);
 
-    std.debug.print("Read {d} bytes from '{s}':\n{s}\n", .{bytesRead, filename, buffer});
+    std.debug.print("Read {d} bytes from '{s}':\n{s}\n", .{bytesRead, filename, buffer[0..bytesRead]});
 }
 ```
 

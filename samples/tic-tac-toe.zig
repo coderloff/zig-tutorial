@@ -8,9 +8,10 @@ fn get_move(move: u8, table:[3][3]u8) !Movement {
 
     var movement: Movement = undefined;
 
-    var buffer: [1024]u8 = undefined;
 
     print("Player {c} -> Enter place: ", .{move});
+
+    var buffer: [1024]u8 = undefined;
 
     var place:u8 = undefined;
 
@@ -104,6 +105,11 @@ fn print_bye(winState: u8) !void{
     else if(winState == 'O') std.debug.print("O won!\n", .{})
     else std.debug.print("Draw!\n", .{});
     print("------------------\n", .{});
+
+    print("\nPress 'Enter' to exit... ", .{});
+    var buffer: [1024]u8 = undefined;
+    const temp = (try std.io.getStdIn().reader().readUntilDelimiterOrEof(buffer[0..], '\n')).?;
+    _ = temp;
 }
 
 pub fn main() !void {
